@@ -8,19 +8,25 @@
 # 不要・別経路で代替できるなら false。推移依存はコメントで導入経路を明記する
 allowBuilds:
   # ── 直接依存 ──
-  lefthook: false   # フック登録は @nozomiishii/postinstall 経由で行うため不要
+  lefthook: false # フック登録は @nozomiishii/postinstall 経由で行うため不要
 
   # ── 推移依存 ──
-  puppeteer: true   # md-to-pdf 経由、PDF 生成のヘッドレスブラウザ起動に必要
+  puppeteer: true # md-to-pdf 経由、PDF 生成のヘッドレスブラウザ起動に必要
 
 # 依存解決のうまくいっていないdependenciesのdependenciesをrootのnode_modulesまで巻き上げる
 publicHoistPattern:
-  - '@types/*'
-  - '*eslint*'
-  - '*prettier*'
+  - "@types/*"
+  - "*eslint*"
+  - "*prettier*"
+
+# minimumReleaseAge は新しく公開された版を一定期間 install させない pnpm の安全機構。自前パッケージは待たず即取り込みたいので除外する。
+minimumReleaseAgeExclude:
+  - "@nozomiishii/*"
+  - git-harvest
+  - pm
 
 # pinバージョンでインストールする
-savePrefix: ''
+savePrefix: ""
 
 # ログ出力形式をカスタマイズ
 reporter: append-only
