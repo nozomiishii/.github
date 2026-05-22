@@ -23,7 +23,6 @@ publicHoistPattern:
 minimumReleaseAgeExclude:
   - "@nozomiishii/*"
   - git-harvest
-  - pm
 
 # pinバージョンでインストールする
 savePrefix: ""
