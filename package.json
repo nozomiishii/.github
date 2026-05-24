@@ -52,7 +52,7 @@
     "textlint-rule-terminology": "5.2.16",
     "textlint-rule-use-si-units": "2.0.0"
   },
-  "packageManager": "pnpm@11.2.1",
+  "packageManager": "pnpm@11.2.2",
   "engines": {
     "node": "24.16.0"
   },
