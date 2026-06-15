@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# Codex は CODEX_PROJECT_DIR 相当を持たず session cwd で hook を回すため、worktree の
+# サブディレクトリで起動された場合 pnpm install が package.json を見失う。両ツールから
+# 同じ起点で動かすために repo root へ移動する。
+cd "$(git rev-parse --show-toplevel)"
 
 # Claude Code の worktree 作成(EnterWorktree)が共有 .git/config に core.hooksPath を書き込む。
 # 値はデフォルト(.git/hooks)と同じで冗長だが、lefthook が「独自パス」とみなし commit ごとの
