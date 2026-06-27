@@ -21,7 +21,7 @@ pre-commit:
 
     - name: generate-pdf-cv
       glob: 'src/cv/cv-ja.md'
-      run: pnpm run pdf:cv src/cv/cv-ja.md && git add src/cv/cv-ja.pdf
+      run: pnpm run pdf:cv src/cv/cv-ja.md && git add src/cv/nozomi_ishii_CV.pdf
 
     - name: generate-pdf-pay
       glob: 'src/pay/pay-ja.md'
