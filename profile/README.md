@@ -4,4 +4,4 @@
 
 ## 職務経歴書 | CV
 
-[日本語](https://github.com/nozomiishii/.github/blob/main/src/cv/cv-ja.md)
+[日本語](https://github.com/nozomiishii/.github/blob/main/src/cv/nozomi_ishii_CV.md)

@@ -20,7 +20,7 @@
     "format": "pnpm prettier --check",
     "format:fix": "pnpm prettier --write",
     "postinstall": "postinstall",
-    "pdf:cv": "md-to-pdf src/cv/cv-ja.md",
+    "pdf:cv": "md-to-pdf src/cv/nozomi_ishii_CV.md",
     "pdf:pay": "md-to-pdf src/pay/pay-ja.md",
     "pdf:resume": "md-to-pdf src/resume/resume.md",
     "prettier": "prettier . '!docs' --ignore-unknown --cache",
