@@ -1,7 +1,3 @@
----
-dest: src/cv/nozomi_ishii_CV.pdf
----
-
 # 業務経歴書
 
 ## 基本情報
