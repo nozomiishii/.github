@@ -9,20 +9,20 @@ importers:
   .:
     devDependencies:
       '@nozomiishii/commitlint-config':
-        specifier: 1.11.0
-        version: 1.11.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)
+        specifier: 1.12.0
+        version: 1.12.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)
       '@nozomiishii/lefthook-config':
-        specifier: 1.11.0
-        version: 1.11.0(lefthook@2.1.10)
+        specifier: 1.12.0
+        version: 1.12.0(lefthook@2.1.10)
       '@nozomiishii/markdownlint-cli2-config':
-        specifier: 1.11.0
-        version: 1.11.0(supports-color@7.2.0)
+        specifier: 1.12.0
+        version: 1.12.0(supports-color@7.2.0)
       '@nozomiishii/postinstall':
-        specifier: 1.11.0
-        version: 1.11.0
+        specifier: 1.12.0
+        version: 1.12.0
       '@nozomiishii/prettier-config':
-        specifier: 1.11.0
-        version: 1.11.0(prettier@3.9.1)
+        specifier: 1.12.0
+        version: 1.12.0(prettier@3.9.6)
       '@textlint-ja/textlint-rule-no-synonyms':
         specifier: 1.3.0
         version: 1.3.0(sudachi-synonyms-dictionary@19.0.0)
@@ -106,13 +106,13 @@ packages:
   '@cacheable/utils@2.5.0':
     resolution: {integrity: sha512-buipgOVDkkPXNR5+xBpDw7Zk2n1EvU7qBJCNUcL7rhQ//kfpOXPAvQ511Os0vpLYJ1pZnvudNytkQt2hst3wqA==}
 
-  '@commitlint/cli@21.1.0':
-    resolution: {integrity: sha512-CVwY6TxGv5naEaWxBdgNHko1xgL95Mb4WcIqp9iik33H0ctVqRv6YtekCntayhEP0T/apuiGvHu5HcCwFuVxEA==}
+  '@commitlint/cli@21.2.1':
+    resolution: {integrity: sha512-blsZGe29hJ72VGEFVl72IVYX+1vsfINpjA9yWQA6i7OKD/McGEOXg08sKIRKjFk4JvzhV/9n0l3i6NooPLTNfg==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
-  '@commitlint/config-conventional@21.1.0':
-    resolution: {integrity: sha512-BIFl8xM+3SLy3jrblUC3wmQLCVbLty+++6o859BDCmybVrQdXmIWO+dlkGIbv/M2bBoC55wGuh0zGiw3TPjL1g==}
+  '@commitlint/config-conventional@21.2.0':
+    resolution: {integrity: sha512-Qf8WRDVcyVd14if6VTWenebxFbKnVnbzPUJjlzjkyJGeHK2xCGd63Dr1XZzj0plXKQb9P0BfOxoc1HVeCo2BWQ==}
     engines: {node: '>=22.12.0'}
 
   '@commitlint/config-validator@21.2.0':
@@ -169,10 +169,6 @@ packages:
 
   '@commitlint/top-level@21.2.0':
     resolution: {integrity: sha512-Y5gmQ+KxzqCrBFJfLvFEPvvwD3LDiNZoTT2yeFBm96M8qhmqSzQc5DvX3rheAaAMjyIvMXOCLS/mWfdpONsjyQ==}
-    engines: {node: '>=22.12.0'}
-
-  '@commitlint/types@21.1.0':
-    resolution: {integrity: sha512-YodnnnH1Cp+08nP8HGNJAIuB6L3/vdCTHVRTfF8Ik/wRCLOTsU9zwv3yO1cSPQRDa9CLYtE+UJ2K67r7CwMSFw==}
     engines: {node: '>=22.12.0'}
 
   '@commitlint/types@21.2.0':
@@ -247,29 +243,29 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@nozomiishii/commitlint-config@1.11.0':
-    resolution: {integrity: sha512-2yrFrXIXJV6QZpkDfKKoT8ccj9qjdIYFRmMb/bPC7iXJabRcunGHVTpJk8NY1iUKE1mshjtA6U96uG03ZK95rQ==}
+  '@nozomiishii/commitlint-config@1.12.0':
+    resolution: {integrity: sha512-HO65dsCzLwfYyluep3D34C58ZMw0+9aFqM1GuW9iWtHLVe77bvEIHJmxejFhNCaiv75jOSV+uCpkld3EiYXfAQ==}
     hasBin: true
 
-  '@nozomiishii/lefthook-config@1.11.0':
-    resolution: {integrity: sha512-vjB3g6LZrS5OoCrugfJbcRMEMDwg7uuDM18HnTIo6y6xETpaiNi94MYE3rvLglYfcCdgL1x6ETf/QHdUcZ8mWA==}
+  '@nozomiishii/lefthook-config@1.12.0':
+    resolution: {integrity: sha512-sYXnHz15IUUf0FllsTg3ag0K4AyURXDatj+Y1f3K8aU5fMsT+kEQcjO0umTBHnfIuSJlFhEG/ePhOjEVusbItQ==}
     hasBin: true
     peerDependencies:
-      lefthook: 2.1.9
+      lefthook: 2.1.10
 
-  '@nozomiishii/markdownlint-cli2-config@1.11.0':
-    resolution: {integrity: sha512-UQ7nWD5dyL2IRpdIoJT7z76GVXocbckB/fmIdWfLwL8oXHxlNSdsZ1aMowxnasBkSchc+ERFUudrgVWFNXG9ww==}
+  '@nozomiishii/markdownlint-cli2-config@1.12.0':
+    resolution: {integrity: sha512-QLsnAdBqL7Hfr1+u5aNRNo4XweJ1qMe9EiQY1iLUenDYrd6gHWvTZbPvePwurHTk3swpBwLvmhIw6Xi1RT+a9Q==}
     hasBin: true
 
-  '@nozomiishii/postinstall@1.11.0':
-    resolution: {integrity: sha512-lBW8VTT0GlouQmX4YFTEZz5NbyPiAb2M7KIW/c/h0gKi/s2Sa0u8ECTkN4StsM+da82tT42Zc6FUpksca6qq6Q==}
+  '@nozomiishii/postinstall@1.12.0':
+    resolution: {integrity: sha512-Hpgfp+F1a9UtFAO7O5M+6not13xBz6UqSkYE+YUeV0y3Si0vw2FxAZfNAvnGWVy4qUNx5izHsdIByDLBOFgUCA==}
     hasBin: true
 
-  '@nozomiishii/prettier-config@1.11.0':
-    resolution: {integrity: sha512-Co6VDE6QdlhIcjutkZGbL/mWRBsftRKaxjxte3nHScXDxE35fmfsRwcTaocWDOKr193QxJsoGQIE4rVT2tAYIQ==}
+  '@nozomiishii/prettier-config@1.12.0':
+    resolution: {integrity: sha512-0KG3LjjKqa1SHvdZvcxvfNvtrLBhYtE5E9qZmNm2P33ou+LdpZLcW/sX0OFt63f3xBOSrMyEctLKNr+uz9uVlQ==}
     hasBin: true
     peerDependencies:
-      prettier: 3.9.1
+      prettier: 3.9.6
 
   '@puppeteer/browsers@3.0.6':
     resolution: {integrity: sha512-B/gKoqlFkzhvzsI6jo9K1cZz9o5ypviVv/xu8CwA4grZzyVwN+XfkT+tu8T1zrauuEXv6VhS2oGX+6NL95WcKA==}
@@ -299,10 +295,6 @@ packages:
   '@simple-libs/child-process-utils@2.0.0':
     resolution: {integrity: sha512-dvNoRKLijXnD0XoJAz94pbNuB5GQgDr55UhpSPhffDkTT0Cmcqh9jSCOtwfT2d4H6MI9E7c4SgtMuJXZ6F3c6A==}
     engines: {node: '>=22'}
-
-  '@simple-libs/stream-utils@1.2.0':
-    resolution: {integrity: sha512-KxXvfapcixpz6rVEB6HPjOUZT22yN6v0vI0urQSk1L8MlEWPDFCZkhw2xmkyoTGYeFw7tWTZd7e3lVzRZRN/EA==}
-    engines: {node: '>=18'}
 
   '@simple-libs/stream-utils@2.0.0':
     resolution: {integrity: sha512-fCTuZK4QBa+39Oz9l4OGfJfz+GpwCp3AqO7Zch3to99xHPgstVsRFpeQ8LNd2o1Gv8raL2mCFwiaHh7bFSp5DQ==}
@@ -678,9 +670,6 @@ packages:
     resolution: {integrity: sha512-LHE+8BuR7RYGDKvnrmcuSq3tDcKv9OFEXQt/HpbZhY7V6h0zlUXutnAD82GiFx9rdieCMjkvtcsPqBwgUl1Iiw==}
     engines: {node: '>= 0.4'}
 
-  array-ify@1.0.0:
-    resolution: {integrity: sha512-c5AMf34bKdvPhQ7tBGhqkgKNUzMr4WUs+WDtC2ZUGOUncbxKMTvqxYctiseW3+L4bA8ec+GcZ6/A/FW4m8ukng==}
-
   arraybuffer.prototype.slice@1.0.4:
     resolution: {integrity: sha512-BNoCY6SXXPQ7gF2opIP4GBE+Xw7U+pHMYKuzjgCN3GwiaIR09UUeKfheyIry77QtrCBlC0KK0q5/TER/tYh3PQ==}
     engines: {node: '>= 0.4'}
@@ -851,9 +840,6 @@ packages:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
 
-  compare-func@2.0.0:
-    resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
-
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
@@ -877,14 +863,9 @@ packages:
     resolution: {integrity: sha512-oWSL6ZhnXbYraOFTK3PgRAQJ8fADDAEv5K6AdeyQPLvjFmhG8+ejL0jZZp/R7vTmGJaBvZEE+sE7dB4bCv7sAw==}
     engines: {node: '>=22'}
 
-  conventional-changelog-conventionalcommits@9.3.1:
-    resolution: {integrity: sha512-dTYtpIacRpcZgrvBYvBfArMmK2xvIpv2TaxM0/ZI5CBtNUzvF2x0t15HsbRABWprS6UPmvj+PzHVjSx4qAVKyw==}
-    engines: {node: '>=18'}
-
-  conventional-commits-parser@6.4.0:
-    resolution: {integrity: sha512-tvRg7FIBNlyPzjdG8wWRlPHQJJHI7DylhtRGeU9Lq+JuoPh5BKpPRX83ZdLrvXuOSu5Eo/e7SzOQhU4Hd2Miuw==}
-    engines: {node: '>=18'}
-    hasBin: true
+  conventional-changelog-conventionalcommits@10.2.1:
+    resolution: {integrity: sha512-n4Kr1HFMTf3iMbES0TMxKIcYtUUv4rKqyQQp2JwfOEfFCOfGT3Tq4mCyJ8S9/YPyWhydjfKrrvnyl+gCjA+mJQ==}
+    engines: {node: '>=22'}
 
   conventional-commits-parser@7.1.0:
     resolution: {integrity: sha512-DPp6hkUjvwIivxbkrTiLXeRswNv1A/4GFA2X6scXma0AMa9632V3TwxmrlkUIEtUktiM3Ln+RrSH2xlP3/jUTw==}
@@ -997,10 +978,6 @@ packages:
   diff@8.0.4:
     resolution: {integrity: sha512-DPi0FmjiSU5EvQV0++GFDOJ9ASQUVFh5kD+OzOnYdi7n3Wpm9hWWGfB/O2blfHcMVTL5WkQXSnRiK9makhrcnw==}
     engines: {node: '>=0.3.1'}
-
-  dot-prop@5.3.0:
-    resolution: {integrity: sha512-QM8q3zDe58hqUqjraQOmzZ1LIH9SWQJTlEKCH4kJ2oQvLZk7RbQXvtDM2XEq3fwkV9CCvvH4LA0AV+ogFsBM2Q==}
-    engines: {node: '>=8'}
 
   doublearray@0.0.2:
     resolution: {integrity: sha512-aw55FtZzT6AmiamEj2kvmR6BuFqvYgKZUkfQ7teqVRNqD5UE0rw8IeW/3gieHNKQ5sPuDKlljWEn4bzv5+1bHw==}
@@ -1148,8 +1125,8 @@ packages:
       picomatch:
         optional: true
 
-  figlet@1.11.0:
-    resolution: {integrity: sha512-EEx3OS/l2bFqcUNN2NM9FPJp8vAMrgbCxsbl2hbcJNNxOEwVe3mEzrhan7TbJQViZa8mMqhihlbCaqD+LyYKTQ==}
+  figlet@1.11.3:
+    resolution: {integrity: sha512-7+OS4S6VjQXI2XRvfZlOdHhItd25lI0NgrR1j5UHfuyZfmMh44v65tMQUlb2bSriYGPCHAtGhuY5u23vqelvmg==}
     engines: {node: '>= 17.0.0'}
     hasBin: true
 
@@ -1245,8 +1222,8 @@ packages:
     resolution: {integrity: sha512-w9UMqWwJxHNOvoNzSJ2oPF5wvYcvP7jUvYzhp67yEhTi17ZDBBC1z9pTdGuzjD+EFIqLSYRweZjqfiPzQ06Ebg==}
     engines: {node: '>= 0.4'}
 
-  git-harvest@0.3.3:
-    resolution: {integrity: sha512-3PU2YkcD12jxK5kwgDQaD+B0G3vIPZla78F/g1/EvImy/G/zmEhDZx6Ty07fs9424iPEvuARGIsrjSU3kFACqw==}
+  git-harvest@0.3.4:
+    resolution: {integrity: sha512-VImxj96S8l1bTV8i220VDQY8SeQj28byCdz1xm0Zrr0ri2+uAZMElE8cCe91nU+KCxFWM3R45cTVjKuEcs2Bdg==}
     engines: {node: '>=24'}
     hasBin: true
 
@@ -1269,8 +1246,8 @@ packages:
     resolution: {integrity: sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==}
     engines: {node: '>= 0.4'}
 
-  globby@16.2.0:
-    resolution: {integrity: sha512-QrJia2qDf5BB/V6HYlDTs0I0lBahyjLzpGQg3KT7FnCdTonAyPy2RtY802m2k4ALx6Dp752f82WsOczEVr3l6Q==}
+  globby@16.2.1:
+    resolution: {integrity: sha512-JmsqJalahxxgW8V2ecSQ2G7UjPlI9cpKdrkG9KoNiXhd/YslXOTEB0cViENWUznuovIuNT+FkMbraDGjr4FCUg==}
     engines: {node: '>=20'}
 
   gopd@1.2.0:
@@ -1523,10 +1500,6 @@ packages:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
     engines: {node: '>=0.12.0'}
 
-  is-obj@2.0.0:
-    resolution: {integrity: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==}
-    engines: {node: '>=8'}
-
   is-observable@1.1.0:
     resolution: {integrity: sha512-NqCa4Sa2d+u7BWc6CukaObG3Fh+CU9bvixbpcXYhy2VvYS7vVGIdAgnIS5Ks3A/cqk4rebLJ9s8zBstT2aKnIA==}
     engines: {node: '>=4'}
@@ -1609,12 +1582,12 @@ packages:
     resolution: {integrity: sha512-ttBQIIQPDeLjpPOohtUdXuXUVoA2uIB6fEH9HyJ7234s5mBJ5wTx20njxplLZQgLaOfpmPQA7X2t5AX6tIPbog==}
     hasBin: true
 
-  js-yaml@4.1.1:
-    resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
-    hasBin: true
-
   js-yaml@4.3.0:
     resolution: {integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==}
+    hasBin: true
+
+  js-yaml@5.2.1:
+    resolution: {integrity: sha512-zfLtNfQqxVqq3uaTqSkh4x4hZw3KHobGUA0fJUj4wawW8bsQLTVqpHdXSIzidh7o+4lEW36tANuAGdaFx6Zgnw==}
     hasBin: true
 
   json-parse-even-better-errors@2.3.1:
@@ -1777,8 +1750,8 @@ packages:
   lru_map@0.4.1:
     resolution: {integrity: sha512-I+lBvqMMFfqaV8CJCISjI3wbjmwVu/VyOoU7+qtu9d7ioW5klMgsTTiUOUp+DJvfTTzKXoPbyC6YfgkNcyPSOg==}
 
-  markdown-it@14.1.1:
-    resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
+  markdown-it@14.3.0:
+    resolution: {integrity: sha512-RCEsPjR+sr0x+AuYp601tKTkgFG4YEPLCzHST3cQ/fhlJkqAkz1L2/Qbp1j9qw5SBwQHFBoW8+hoN5xssOF0Tw==}
     hasBin: true
 
   markdown-table@2.0.0:
@@ -1789,14 +1762,14 @@ packages:
     peerDependencies:
       markdownlint-cli2: '>=0.0.4'
 
-  markdownlint-cli2@0.22.1:
-    resolution: {integrity: sha512-X14ZbytybDCXAViDmtN4DKLt9ZTrRn+oOrxTYlg3a65jS6QcYYbAkGPh/En2L/GDNbFYJ6lKaQSUNrrbN1bPrw==}
-    engines: {node: '>=20'}
+  markdownlint-cli2@0.23.1:
+    resolution: {integrity: sha512-20JPI5W+HpV1OA+pUM712wgvL4GzYNUvbmhLU8KlEYJ1kCDx4soZ4/Xqd+WkLrPTOKMAn8SfO3zYFrK8GLlwQg==}
+    engines: {node: '>=22'}
     hasBin: true
 
-  markdownlint@0.40.0:
-    resolution: {integrity: sha512-UKybllYNheWac61Ia7T6fzuQNDZimFIpCg2w6hHjgV1Qu0w1TV0LlSgryUGzM0bkKQCBhy2FDhEELB73Kb0kAg==}
-    engines: {node: '>=20'}
+  markdownlint@0.41.1:
+    resolution: {integrity: sha512-qHKeU2E1bdyNAT077go2FVTNXvYcktN5IHtF6XyeD1l0PClxzSp2tUApAV14ORI8DGX4H9bNKZEzelZp4qn8IA==}
+    engines: {node: '>=22'}
 
   marked@4.3.0:
     resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
@@ -1857,10 +1830,6 @@ packages:
   media-typer@1.1.1:
     resolution: {integrity: sha512-yz3xRaG20c6/BOzvYoDaGtPmGscs7YivItZEEqe6GbwNfHuxu9YNmvnEkMzKldAGY4/80pRcQRZSEnhquk9XuQ==}
     engines: {node: '>= 0.8'}
-
-  meow@13.2.0:
-    resolution: {integrity: sha512-pxQJQzB6djGPXh08dacEloMFopsOqGVRKFPYvPOt9XDZ1HasbgDZA74CJGreSU4G3Ak7EFJGoiH2auq+yXISgA==}
-    engines: {node: '>=18'}
 
   merge-descriptors@2.0.0:
     resolution: {integrity: sha512-Snk314V5ayFLhp3fkUREub6WtjBfPdCPY1Ln8/8munuLuiYhsABgBVWsozAG+MWMbVEvcdcpbi9R7ww22l9Q3g==}
@@ -2297,8 +2266,8 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2516,8 +2485,8 @@ packages:
   slide@1.1.6:
     resolution: {integrity: sha512-NwrtjCg+lZoqhFU8fOwl4ay2ei8PaqCBOUV3/ektPY9trO1yQ1oXEfmHAhKArUVUr/hOHvy5f6AdP17dCM0zMw==}
 
-  smol-toml@1.6.1:
-    resolution: {integrity: sha512-dWUG8F5sIIARXih1DTaQAX4SsiTXhInKf1buxdY9DIg4ZYPZK5nGM1VRIYmEbDbsHt7USo99xSLFu5Q1IqTmsg==}
+  smol-toml@1.7.0:
+    resolution: {integrity: sha512-aqVvWoyO21L23mb+drl4RmMXbf6N7FdHjAhTRA9ZBL7apWBgfWC16KjrASI+1p9GAroljyMHj6fK67i0UiTNvQ==}
     engines: {node: '>= 18'}
 
   sort-object-keys@2.1.0:
@@ -2570,8 +2539,8 @@ packages:
     resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
 
-  string-width@8.1.0:
-    resolution: {integrity: sha512-Kxl3KJGb/gxkaUMOjRsQ8IrXiGW75O4E3RPjFIINOVH8AMl2SQ/yWdTzWwF3FevIX9LcMAjJW+GRwAlAbTSXdg==}
+  string-width@8.2.1:
+    resolution: {integrity: sha512-IIaP0g3iy9Cyy18w3M9YcaDudujEAVHKt3a3QJg1+sr/oX96TbaGUubG0hJyCjCBThFH+tFpcIyoUHUn1ogaLA==}
     engines: {node: '>=20'}
 
   string.prototype.trim@1.2.11:
@@ -2971,9 +2940,9 @@ snapshots:
       hashery: 1.5.1
       keyv: 5.6.0
 
-  '@commitlint/cli@21.1.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)':
+  '@commitlint/cli@21.2.1(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)':
     dependencies:
-      '@commitlint/config-conventional': 21.1.0
+      '@commitlint/config-conventional': 21.2.0
       '@commitlint/format': 21.2.0
       '@commitlint/lint': 21.2.0
       '@commitlint/load': 21.2.0(@types/node@26.1.1)(typescript@7.0.2)
@@ -2987,10 +2956,10 @@ snapshots:
       - conventional-commits-parser
       - typescript
 
-  '@commitlint/config-conventional@21.1.0':
+  '@commitlint/config-conventional@21.2.0':
     dependencies:
       '@commitlint/types': 21.2.0
-      conventional-changelog-conventionalcommits: 9.3.1
+      conventional-changelog-conventionalcommits: 10.2.1
 
   '@commitlint/config-validator@21.2.0':
     dependencies:
@@ -3074,11 +3043,6 @@ snapshots:
   '@commitlint/top-level@21.2.0':
     dependencies:
       escalade: 3.2.0
-
-  '@commitlint/types@21.1.0':
-    dependencies:
-      conventional-commits-parser: 6.4.0
-      picocolors: 1.1.1
 
   '@commitlint/types@21.2.0':
     dependencies:
@@ -3166,37 +3130,37 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
 
-  '@nozomiishii/commitlint-config@1.11.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)':
+  '@nozomiishii/commitlint-config@1.12.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)':
     dependencies:
-      '@commitlint/cli': 21.1.0(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)
-      '@commitlint/config-conventional': 21.1.0
-      '@commitlint/types': 21.1.0
+      '@commitlint/cli': 21.2.1(@types/node@26.1.1)(conventional-commits-parser@7.1.0)(typescript@7.0.2)
+      '@commitlint/config-conventional': 21.2.0
+      '@commitlint/types': 21.2.0
     transitivePeerDependencies:
       - '@types/node'
       - conventional-commits-filter
       - conventional-commits-parser
       - typescript
 
-  '@nozomiishii/lefthook-config@1.11.0(lefthook@2.1.10)':
+  '@nozomiishii/lefthook-config@1.12.0(lefthook@2.1.10)':
     dependencies:
-      git-harvest: 0.3.3
+      git-harvest: 0.3.4
       lefthook: 2.1.10
 
-  '@nozomiishii/markdownlint-cli2-config@1.11.0(supports-color@7.2.0)':
+  '@nozomiishii/markdownlint-cli2-config@1.12.0(supports-color@7.2.0)':
     dependencies:
-      markdownlint-cli2: 0.22.1(supports-color@7.2.0)
+      markdownlint-cli2: 0.23.1(supports-color@7.2.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@nozomiishii/postinstall@1.11.0':
+  '@nozomiishii/postinstall@1.12.0':
     dependencies:
-      figlet: 1.11.0
+      figlet: 1.11.3
       zx: 8.8.5
 
-  '@nozomiishii/prettier-config@1.11.0(prettier@3.9.1)':
+  '@nozomiishii/prettier-config@1.12.0(prettier@3.9.6)':
     dependencies:
-      prettier: 3.9.1
-      prettier-plugin-packagejson: 3.0.2(prettier@3.9.1)
+      prettier: 3.9.6
+      prettier-plugin-packagejson: 3.0.2(prettier@3.9.6)
 
   '@puppeteer/browsers@3.0.6':
     dependencies:
@@ -3214,8 +3178,6 @@ snapshots:
   '@simple-libs/child-process-utils@2.0.0':
     dependencies:
       '@simple-libs/stream-utils': 2.0.0
-
-  '@simple-libs/stream-utils@1.2.0': {}
 
   '@simple-libs/stream-utils@2.0.0': {}
 
@@ -3652,8 +3614,6 @@ snapshots:
       call-bound: 1.0.4
       is-array-buffer: 3.0.5
 
-  array-ify@1.0.0: {}
-
   arraybuffer.prototype.slice@1.0.4:
     dependencies:
       array-buffer-byte-length: 1.0.2
@@ -3840,11 +3800,6 @@ snapshots:
 
   commander@8.3.0: {}
 
-  compare-func@2.0.0:
-    dependencies:
-      array-ify: 1.0.0
-      dot-prop: 5.3.0
-
   concat-map@0.0.1: {}
 
   content-disposition@0.5.2: {}
@@ -3859,14 +3814,9 @@ snapshots:
     dependencies:
       '@conventional-changelog/template': 1.2.1
 
-  conventional-changelog-conventionalcommits@9.3.1:
+  conventional-changelog-conventionalcommits@10.2.1:
     dependencies:
-      compare-func: 2.0.0
-
-  conventional-commits-parser@6.4.0:
-    dependencies:
-      '@simple-libs/stream-utils': 1.2.0
-      meow: 13.2.0
+      '@conventional-changelog/template': 1.2.1
 
   conventional-commits-parser@7.1.0:
     dependencies:
@@ -3976,10 +3926,6 @@ snapshots:
   devtools-protocol@0.0.1638949: {}
 
   diff@8.0.4: {}
-
-  dot-prop@5.3.0:
-    dependencies:
-      is-obj: 2.0.0
 
   doublearray@0.0.2: {}
 
@@ -4190,7 +4136,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.5
 
-  figlet@1.11.0:
+  figlet@1.11.3:
     dependencies:
       commander: 14.0.3
 
@@ -4295,7 +4241,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
 
-  git-harvest@0.3.3: {}
+  git-harvest@0.3.4: {}
 
   git-hooks-list@4.2.1: {}
 
@@ -4318,7 +4264,7 @@ snapshots:
       define-properties: 1.2.1
       gopd: 1.2.0
 
-  globby@16.2.0:
+  globby@16.2.1:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       fast-glob: 3.3.3
@@ -4558,8 +4504,6 @@ snapshots:
 
   is-number@7.0.0: {}
 
-  is-obj@2.0.0: {}
-
   is-observable@1.1.0:
     dependencies:
       symbol-observable: 1.2.0
@@ -4630,11 +4574,11 @@ snapshots:
       argparse: 1.0.10
       esprima: 4.0.1
 
-  js-yaml@4.1.1:
+  js-yaml@4.3.0:
     dependencies:
       argparse: 2.0.1
 
-  js-yaml@4.3.0:
+  js-yaml@5.2.1:
     dependencies:
       argparse: 2.0.1
 
@@ -4792,7 +4736,7 @@ snapshots:
 
   lru_map@0.4.1: {}
 
-  markdown-it@14.1.1:
+  markdown-it@14.3.0:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
@@ -4805,25 +4749,25 @@ snapshots:
     dependencies:
       repeat-string: 1.6.1
 
-  markdownlint-cli2-formatter-default@0.0.6(markdownlint-cli2@0.22.1(supports-color@7.2.0)):
+  markdownlint-cli2-formatter-default@0.0.6(markdownlint-cli2@0.23.1(supports-color@7.2.0)):
     dependencies:
-      markdownlint-cli2: 0.22.1(supports-color@7.2.0)
+      markdownlint-cli2: 0.23.1(supports-color@7.2.0)
 
-  markdownlint-cli2@0.22.1(supports-color@7.2.0):
+  markdownlint-cli2@0.23.1(supports-color@7.2.0):
     dependencies:
-      globby: 16.2.0
-      js-yaml: 4.1.1
+      globby: 16.2.1
+      js-yaml: 5.2.1
       jsonc-parser: 3.3.1
       jsonpointer: 5.0.1
-      markdown-it: 14.1.1
-      markdownlint: 0.40.0(supports-color@7.2.0)
-      markdownlint-cli2-formatter-default: 0.0.6(markdownlint-cli2@0.22.1(supports-color@7.2.0))
+      markdown-it: 14.3.0
+      markdownlint: 0.41.1(supports-color@7.2.0)
+      markdownlint-cli2-formatter-default: 0.0.6(markdownlint-cli2@0.23.1(supports-color@7.2.0))
       micromatch: 4.0.8
-      smol-toml: 1.6.1
+      smol-toml: 1.7.0
     transitivePeerDependencies:
       - supports-color
 
-  markdownlint@0.40.0(supports-color@7.2.0):
+  markdownlint@0.41.1(supports-color@7.2.0):
     dependencies:
       micromark: 4.0.2(supports-color@7.2.0)
       micromark-core-commonmark: 2.0.3
@@ -4833,7 +4777,7 @@ snapshots:
       micromark-extension-gfm-table: 2.1.1
       micromark-extension-math: 3.1.0
       micromark-util-types: 2.0.2
-      string-width: 8.1.0
+      string-width: 8.2.1
     transitivePeerDependencies:
       - supports-color
 
@@ -4946,8 +4890,6 @@ snapshots:
   mdurl@2.1.0: {}
 
   media-typer@1.1.1: {}
-
-  meow@13.2.0: {}
 
   merge-descriptors@2.0.0: {}
 
@@ -5363,13 +5305,13 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-packagejson@3.0.2(prettier@3.9.1):
+  prettier-plugin-packagejson@3.0.2(prettier@3.9.6):
     dependencies:
       sort-package-json: 3.7.1
     optionalDependencies:
-      prettier: 3.9.1
+      prettier: 3.9.6
 
-  prettier@3.9.1: {}
+  prettier@3.9.6: {}
 
   property-information@5.6.0:
     dependencies:
@@ -5685,7 +5627,7 @@ snapshots:
 
   slide@1.1.6: {}
 
-  smol-toml@1.6.1: {}
+  smol-toml@1.7.0: {}
 
   sort-object-keys@2.1.0: {}
 
@@ -5747,7 +5689,7 @@ snapshots:
       get-east-asian-width: 1.6.0
       strip-ansi: 7.2.0
 
-  string-width@8.1.0:
+  string-width@8.2.1:
     dependencies:
       get-east-asian-width: 1.6.0
       strip-ansi: 7.2.0
