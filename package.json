@@ -27,16 +27,16 @@
     "setup": "./scripts/setup.sh"
   },
   "devDependencies": {
-    "@nozomiishii/commitlint-config": "1.11.0",
-    "@nozomiishii/lefthook-config": "1.11.0",
-    "@nozomiishii/markdownlint-cli2-config": "1.11.0",
-    "@nozomiishii/postinstall": "1.11.0",
-    "@nozomiishii/prettier-config": "1.11.0",
+    "@nozomiishii/commitlint-config": "1.12.0",
+    "@nozomiishii/lefthook-config": "1.12.0",
+    "@nozomiishii/markdownlint-cli2-config": "1.12.0",
+    "@nozomiishii/postinstall": "1.12.0",
+    "@nozomiishii/prettier-config": "1.12.0",
     "@textlint-ja/textlint-rule-no-synonyms": "1.3.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "2.0.4",
     "lefthook": "2.1.10",
     "md-to-pdf": "5.2.5",
-    "sudachi-synonyms-dictionary": "18.0.0",
+    "sudachi-synonyms-dictionary": "19.0.0",
     "textlint": "15.7.1",
     "textlint-rule-date-weekday-mismatch": "1.1.1",
     "textlint-rule-footnote-order": "1.0.3",
@@ -52,7 +52,7 @@
     "textlint-rule-terminology": "5.2.16",
     "textlint-rule-use-si-units": "2.0.0"
   },
-  "packageManager": "pnpm@11.13.0",
+  "packageManager": "pnpm@11.17.0",
   "engines": {
     "node": "24.18.0"
   },
