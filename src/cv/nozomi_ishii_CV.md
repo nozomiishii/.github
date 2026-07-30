@@ -19,77 +19,52 @@
 
 ## 技術
 
-### 言語
+<https://whatweuse.dev>を参考に分類しています。
 
-TypeScript | Rust | Bash
+### プログラミング言語
 
-### フロントエンド
+TypeScript | Rust
 
-#### フレームワーク
+### フロントエンドフレームワーク・ライブラリ
 
-Next.js | React | React Native
+Next.js | TanStack Start | TailwindCSS | Storybook | ESLint | Prettier | Lefthook | pnpm | GSAP | React Three Fiber | p5.js | Playwright | Vitest
 
-#### UI開発
+### バックエンドフレームワーク・ライブラリ
 
-Storybook | Chromatic
+Hono | Drizzle ORM | Better Auth | Bun | OpenAPI | GraphQL | gRPC
 
-#### スタイリング
+### モバイルフレームワーク・ライブラリ
 
-TailwindCSS | Panda CSS
+Expo | Capacitor | Electron | WXT
 
-#### アニメーション / クリエイティブコーディング
+### ミドルウェア
 
-GSAP | Framer Motion | Three.js | p5.js
+PostgreSQL | SQLite
 
-#### 国際化
+### モニタリング
 
-next-intl
+Sentry
 
-### バックエンド
+### AIツール・LLMサービス
 
-#### Node.js
+Claude Code | Codex | Cursor
 
-NestJS | Express | Prisma | TypeORM
+### 技術系その他（CI、検索エンジン、コード管理）
 
-#### Rust
+GitHub Actions | Renovate | release-please | Vercel | Docker | loudflare Workers | OpenTofu | Stripe | Cloudflare
 
-axum | Tokio | SeaORM | Tonic
+### デザイン
 
-### テスト
+Figma
 
-Playwright | Vitest | MSW | Chromatic | axe-core
+### ビジネスツール・コミュニケーション
 
-### インフラ / クラウド
+Linear
 
-Terraform | Terragrunt | Docker | GCP | Cloudflare | Vercel | Firebase
+### その他
 
-### CI/CD
+1Password
 
-GitHub Actions | Renovate | release-please
-
-### 開発環境 / DX
-
-pnpm | Turborepo | Lefthook | zx | scaffdog | Cursor | Claude Code
-
-### リンター / フォーマッター
-
-ESLint | Prettier | textlint | commitlint | cspell | markdownlint | actionlint | secretlint
-
-### スキーマ / バリデーション
-
-Zod | OpenAPI
-
-### 外部サービス
-
-Sentry | Stripe | SendGrid | Pusher | Agora | Vercel Analytics | 1Password
-
-### ドキュメント
-
-Fumadocs | Docusaurus | Notion
-
-### デザイン / プロジェクト管理
-
-Figma | Jira | LaunchDarkly | AG Grid
 
 ## 強みが発揮されやすい業務
 
@@ -99,12 +74,8 @@ Figma | Jira | LaunchDarkly | AG Grid
 - Vitestを使った単体テスト導入自動化
 - StorybookでのUIカタログ、コンポーネントテスト作成自動化
 - GitHub ActionsでのCI/CDの導入
-- Bash, zxを使ったタスク自動化
-- Git Hooksの導入
 - Monorepo開発
-- GCPでのアプリケーション導入、運用
 - アクセシビリティに配慮した設計
-- Fumadocs, Docusaurusでのドキュメント制作
 - 多言語化
 
 ## 主な業務経歴
