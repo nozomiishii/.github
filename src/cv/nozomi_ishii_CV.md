@@ -19,8 +19,6 @@
 
 ## 技術
 
-<https://whatweuse.dev>を参考に分類しています。
-
 ### プログラミング言語
 
 TypeScript | Rust
@@ -65,6 +63,7 @@ Linear
 
 1Password
 
+<https://whatweuse.dev>を参考に分類。
 
 ## 強みが発揮されやすい業務
 
