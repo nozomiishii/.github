@@ -72,8 +72,8 @@ importers:
         specifier: 1.0.1
         version: 1.0.1
       textlint-rule-preset-ja-spacing:
-        specifier: 3.0.2
-        version: 3.0.2
+        specifier: 3.0.3
+        version: 3.0.3
       textlint-rule-sentence-length:
         specifier: 5.2.1
         version: 5.2.1
@@ -2453,8 +2453,8 @@ packages:
   textlint-rule-period-in-list-item@1.0.1:
     resolution: {integrity: sha512-dNPa4WzePcgsz8A+CxFGQgKNZCEvjjwMCu3DFcpYB4eKuhcSISEiS/mvEO42oGAALJluYdYVZxN3yMD6XzkLBA==}
 
-  textlint-rule-preset-ja-spacing@3.0.2:
-    resolution: {integrity: sha512-6uFVfqSBHjexMfTLO2jq/QOczSgYuPRVPgOsTrh60RItQiznk2oHAKL5rLdn0STty3fxqTx+6cFnkjqw4VaEkA==}
+  textlint-rule-preset-ja-spacing@3.0.3:
+    resolution: {integrity: sha512-cIdZcM7in3A7cal2VUbOzUsr+rf2n89jAS4mT9rqjN6GsBl0oD0/iPkT71C0r+dwjZwWE3PeBgmwh2q9GqtChA==}
 
   textlint-rule-sentence-length@5.2.1:
     resolution: {integrity: sha512-z4HylabPy+e1I5DcuzDmcT65hvyytTlsD+uM49JkCBTSJBWqzQQ3kCGk4b1cF+kANS2HifWNnpTG/jfSOeavIw==}
@@ -5370,7 +5370,7 @@ snapshots:
     dependencies:
       check-ends-with-period: 3.0.2
 
-  textlint-rule-preset-ja-spacing@3.0.2:
+  textlint-rule-preset-ja-spacing@3.0.3:
     dependencies:
       textlint-rule-ja-nakaguro-or-halfwidth-space-between-katakana: 3.0.3
       textlint-rule-ja-no-space-around-parentheses: 3.0.3
