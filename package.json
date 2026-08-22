@@ -52,10 +52,6 @@
     "textlint-rule-terminology": "5.2.16",
     "textlint-rule-use-si-units": "2.0.0"
   },
-  "packageManager": "pnpm@11.22.0",
-  "engines": {
-    "node": "24.19.0"
-  },
   "devEngines": {
     "runtime": {
       "name": "node",
@@ -64,6 +60,7 @@
     },
     "packageManager": {
       "name": "pnpm",
+      "version": "11.22.0",
       "onFail": "error"
     }
   }
