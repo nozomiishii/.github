@@ -3,11 +3,13 @@
 - 7000円(税別)以上
 
 ## フロントエンド
+
 - 技術スタック
   - TypeScript
   - React系
 
 ## バックエンド
+
 - 技術スタック
   - TypeScript
   - Rust
