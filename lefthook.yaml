@@ -16,13 +16,13 @@ pre-commit:
 
   jobs:
     - name: lint-textlint
-      glob: '*.md'
+      glob: "*.md"
       run: pnpm exec textlint {staged_files}
 
     - name: generate-pdf-cv
-      glob: 'src/cv/nozomi_ishii_CV.md'
+      glob: "src/cv/nozomi_ishii_CV.md"
       run: pnpm run pdf:cv src/cv/nozomi_ishii_CV.md && git add src/cv/nozomi_ishii_CV.pdf
 
     - name: generate-pdf-pay
-      glob: 'src/pay/pay-ja.md'
+      glob: "src/pay/pay-ja.md"
       run: pnpm run pdf:pay src/pay/pay-ja.md && git add src/pay/pay-ja.pdf
