@@ -1,6 +1,6 @@
 plugins:
   # mdxにもlintを適用できる(@textlint/markdownはBuilt-inサポートされてる)　https://github.com/textlint/textlint/tree/master/packages/@textlint/textlint-plugin-markdown
-  '@textlint/markdown':
+  "@textlint/markdown":
     extensions:
       - .mdx
 
@@ -9,7 +9,7 @@ rules:
   terminology: true
 
   # 同一ファイル内の文章で同義語の表記ゆれがないか https://github.com/textlint-ja/textlint-rule-no-synonyms
-  '@textlint-ja/no-synonyms': true
+  "@textlint-ja/no-synonyms": true
 
   # 1文の長さは100文字以下 https://github.com/textlint-rule/textlint-rule-sentence-length
   # sentence-length:

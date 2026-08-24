@@ -2,7 +2,7 @@ name: create issue
 
 on:
   schedule:
-    - cron: '0 0 1 1,4,7,10 *'
+    - cron: "0 0 1 1,4,7,10 *"
 
 concurrency:
   group: ${{ github.workflow }}
@@ -15,8 +15,8 @@ jobs:
     name: create issue
     runs-on: ubuntu-slim
     permissions:
-      contents: read  # required by actions/checkout and create-an-issue to read the template file
-      issues: write  # required by JasonEtco/create-an-issue to create the issue
+      contents: read # required by actions/checkout and create-an-issue to read the template file
+      issues: write # required by JasonEtco/create-an-issue to create the issue
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
