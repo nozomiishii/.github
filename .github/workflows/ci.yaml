@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+permissions: {}
+
+jobs:
+  changes:
+    runs-on: ubuntu-slim
+    timeout-minutes: 5
+    permissions:
+      contents: read # required by actions/checkout to fetch repository code
+      pull-requests: read # required by dorny/paths-filter to read PR diff
+    outputs:
+      format: ${{ steps.changes.outputs.format }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d # v4.0.3
+        id: changes
+        with:
+          predicate-quantifier: every
+          filters: |
+            format:
+              - '**'
+              - '!**/*.md'
+              - '!**/*.pdf'
+
+  format:
+    needs: changes
+    if: needs.changes.outputs.format == 'true'
+    runs-on: ubuntu-slim
+    timeout-minutes: 10
+    permissions:
+      contents: read # required by actions/checkout to fetch repository code
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup mise
+        uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+
+      - name: Install dependencies
+        run: pnpm install --ignore-scripts
+
+      - name: Format check
+        run: pnpm format
+
+  required:
+    # name 変更時は infra 側の required_status_checks も更新する
+    name: CI / required
+    needs: [changes, format]
+    if: always()
+    runs-on: ubuntu-slim
+    timeout-minutes: 1
+    steps:
+      - name: Fail if any required job failed or was cancelled
+        if: contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled')
+        run: |
+          echo "A required job failed or was cancelled"
+          exit 1
